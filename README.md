@@ -8,6 +8,8 @@
 - you see the app build
 - you see the sandbox start
 - you see the sandbox running Sandbox startup plugin
+- you press ^c to terminate the process (this uses SIGINT)
+- you see the process abruptly end and you do NOT see any of the logs from the async end()
 
 ```
 > dev
@@ -40,6 +42,13 @@ starting example sandbox plugin
 ```
 
 ## What is Expected
+- you see the app build
+- you see the sandbox start
+- you see the sandbox running Sandbox startup plugin
+- you press ^c to terminate the process (this uses SIGINT)
+- you see the logs from the async end() in the order shown below
+- you see "Sandbox Ran Sandbox shutdown plugin"
+- you see the process end after graceful termination of all subprocesses and plugins
 
 ```
 $ npm run dev
