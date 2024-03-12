@@ -40,7 +40,7 @@ sub-process pid: 36929
 starting example sandbox plugin
 ✓ Sandbox Ran Sandbox startup plugin in 1ms
 ✓ Sandbox File watcher now looking for project changes
-^C%
+^C
 ```
 
 ## What is Expected
@@ -104,5 +104,4 @@ THREE SECOND
 FOUR SECOND
 FIVE SECOND
 ✓ Sandbox Ran Sandbox shutdown plugin in 0ms
-^C
 ```
