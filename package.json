@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev -c \"arc sandbox -e testing\"",
+    "start": "cross-env NODE_ENV=production arc sandbox",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/architect": "^2.5.1",
+    "@remix-run/css-bundle": "^2.5.1",
+    "@remix-run/node": "^2.5.1",
+    "@remix-run/react": "^2.5.1",
+    "async-exit-hook": "^2.0.1",
+    "cross-env": "^7.0.3",
+    "isbot": "^3.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@architect/architect": "10.16.3",
+    "@remix-run/dev": "^2.5.1",
+    "@remix-run/eslint-config": "^2.5.1",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
