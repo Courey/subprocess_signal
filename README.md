@@ -12,6 +12,8 @@
 - you see the process abruptly end and you do NOT see any of the logs from the async end()
 
 ```
+$ npm run dev
+
 > dev
 > remix dev -c "arc sandbox -e testing"
 
